@@ -1,0 +1,2 @@
+gcc -c -O3 -fPIC -mcpu=cortex-a53 -mfpu=neon-vfpv4 -DHAVE_NFT=1 -pthread -I/usr/include/c++/5 -I/usr/include/gstreamer-0.10 -I/usr/include/glib-2.0 -I/usr/lib/arm-linux-gnueabihf/glib-2.0/include -I/usr/include/libxml2 -I../artoolkit5-master/include twocams.c
+Makefile:68: recipe for target 'twocams.o' failed
